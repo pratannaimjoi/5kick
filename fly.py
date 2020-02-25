@@ -333,9 +333,9 @@ def lineBot(op):
                     line.sendMessage(to, str(myHelp))
 
 
-                elif msg.text in ["บิน"]:
+                elif msg.text in ["ลาก่อน"]:
                         if msg.toType == 2:
-                         _name = msg.text.replace("บิน","")
+                         _name = msg.text.replace("ลาก่อน","")
                          gs = line.getGroup(receiver)
                          targets = []
                          for g in gs.members:
@@ -364,7 +364,7 @@ def lineBot(op):
             sender = msg._from
 
         if op.type == 55:
-            print ("Masmax")
+            print ("tanlinepy")
             try:
                 if op.param1 in read['readPoint']:
                     if op.param2 in read['readMember'][op.param1]:
