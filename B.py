@@ -33,8 +33,8 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["u010598af074d6d55419609ae63048a60",lineMID]
-admin=['u010598af074d6d55419609ae63048a60',lineMID]
+Family=["uda8195e53e6c6e17f3f745743e477100",lineMID]
+admin=['uda8195e53e6c6e17f3f745743e477100',lineMID]
 RfuFamily = RfuBot + Family
 #ทำใว้เพือบับได้แจกบอทบิน55
 welcome = []
