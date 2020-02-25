@@ -1,5 +1,5 @@
 # -บอทบินแจกฟรีไม่คิดเงิน
-from  tanlinepy import *
+from tanlinepy import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from datetime import datetime
