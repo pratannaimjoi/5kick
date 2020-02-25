@@ -1,4 +1,4 @@
-# tanfly
+# install TERMUX
         apt update
         apt upgrade
         apt install git
