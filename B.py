@@ -1,4 +1,4 @@
-# -บอทบินแจกฟรีไม่คิดเงิน
+# TANBOTMEVERDIE✯͜͡❂➣
 from tanlinepy import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
