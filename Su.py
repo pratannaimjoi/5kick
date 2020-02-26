@@ -341,9 +341,9 @@ def mentionMembers(to, mid):
         line.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 
 def myhelp():
-    myHelp = """꧁มินทีมทดลองบอท꧂
+    myHelp = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
  SELF BOT MIN HACK
-꧁ชุดคำสั่ง ภาษาไทย꧂
+─┅═❈͜͡✯ ชุดคำสั่ง ภาษาไทย  ✯͜͡❈═┅─
 ╔═══════════════════┓
 ╔══════════╗
 ╠✰ เช็ค [เช็คการตั้งค่า]
