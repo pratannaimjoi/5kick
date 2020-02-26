@@ -434,9 +434,9 @@ def myhelp():
     return myHelp
 
 def listgrup():
-    listGrup = """꧁มินทีมทดลองบอท꧂
+    listGrup = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
  SELF BOT MIN HACK
-꧁ชุดคำสั่ง ภาษาไทย꧂
+✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
  ────┅═ই۝ई═┅────
              คำสั่งในกลุ่ม
  ────┅═ই۝ई═┅────
