@@ -479,9 +479,9 @@ def listgrup():
     return listGrup
 
 def socmedia():
-    socMedia = """꧁มินทีมทดลองบอท꧂
+    socMedia = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
  SELF BOT MIN HACK
-꧁ชุดคำสั่ง ภาษาไทย꧂
+✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 
 ╔══════════════┓
 ╠❂➣ ปฏิทิน
@@ -502,9 +502,9 @@ def socmedia():
     return socMedia
 
 def helpset():
-    helpSet = """꧁มินทีมทดลองบอท꧂
+    helpSet = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
  SELF BOT MIN HACK
-꧁ชุดคำสั่ง ภาษาไทย꧂
+✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 ╔══════════════┓
 ╠❂➣ โย่ว
 ╠❂➣ ไอดี
@@ -551,9 +551,9 @@ def helpset():
     return helpSet
 
 def helpsetting():
-    helpSetting = """꧁มินทีมทดลองบอท꧂
+    helpSetting = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
  SELF BOT MIN HACK
-꧁ชุดคำสั่ง ภาษาไทย꧂
+✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 ╔══════════════┓
 ╠❂➣ เปิดกัน/ปิดกัน
 ╠❂➣ กันยก/ปิดกันยก
