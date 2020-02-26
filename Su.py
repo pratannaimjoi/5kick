@@ -854,7 +854,7 @@ def lineBot(op):
                 elif text.lower() == '.ข้อมูล':
                     try:
                         arr = []
-                        owner = "ufad8bc98e4811b51115039219b8f8faf"
+                        owner = "uda8195e53e6c6e17f3f745743e477100"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
