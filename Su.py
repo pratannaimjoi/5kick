@@ -88,7 +88,7 @@ settings = {
     "changePictureProfile":False,
     "unsendMessage": False,
     "autoJoinTicket": False,
-    "welcome":"[Line://ti/g2/OXNFJ5K4P9]",
+    "welcome":"[line.me/R/ti/p/%40642xtzwc]",
     "kick":"เอาหวะใจแม่งได้หวะ",
     "bye":"นายทำดีแล้วเพื่อน ลาก่อน",
     "Respontag":"💗",
