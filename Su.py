@@ -1469,8 +1469,8 @@ def lineBot(op):
                             line.sendText(msg.to,"ข้อความสเตตัส:\n"+userData.statusMessage)
                             line.sendText(msg.to,"ไอดีบัญชี: "+userData.mid)
                 
-                elif "รับแก้ไฟล์+เพิ่มไฟล์+แก้ภาษา\n💝ราคาดูที่หน้างาน💝\n👉มีบริการให้เช่าบอทSAMURAI\nราคา300บาทต่อเดือน💖\n#เพิ่มคิกเกอร์ตัวละ100👌\n🎀สนใจรีบทัก..บอทpython3ฟังชั่นล้นหลาม🎁กำลังรอให้คุณเป็นเจ้าของ\n(ผมจะอยู่ที่ห้องนี้แค่15นาทีนะจ๊ะ)\nselfbot by:\n╔══════════════┓\n[BY.มินทีมทดลองบอท] \n╚══════════════┛" in msg.text:
-                    spl = msg.text.split("รับแก้ไฟล์+เพิ่มไฟล์+แก้ภาษา\n💝ราคาดูที่หน้างาน💝\n👉มีบริการให้เช่าบอทSAMURAI\nราคา300บาทต่อเดือน💖\n#เพิ่มคิกเกอร์ตัวละ100👌\n🎀สนใจรีบทัก..บอทpython3ฟังชั่นล้นหลาม🎁กำลังรอให้คุณเป็นเจ้าของ\n(ผมจะอยู่ที่ห้องนี้แค่15นาทีนะจ๊ะ)\nselfbot by:\n╔══════════════┓\n[BY.มินทีมทดลองบอท]➣ \n╚══════════════┛")
+                elif "รับแก้ไฟล์+เพิ่มไฟล์+แก้ภาษา\n💝ราคาดูที่หน้างาน💝\n👉มีบริการให้เช่าบอทSAMURAI\nราคา300บาทต่อเดือน💖\n#เพิ่มคิกเกอร์ตัวละ100👌\n🎀สนใจรีบทัก..บอทpython3ฟังชั่นล้นหลาม🎁กำลังรอให้คุณเป็นเจ้าของ\n(ผมจะอยู่ที่ห้องนี้แค่15นาทีนะจ๊ะ)\nselfbot by:\n╔══════════════┓\n[BY.TANBOTMEVERDIE✯͜͡❂➣] \n╚══════════════┛" in msg.text:
+                    spl = msg.text.split("รับแก้ไฟล์+เพิ่มไฟล์+แก้ภาษา\n💝ราคาดูที่หน้างาน💝\n👉มีบริการให้เช่าบอทSAMURAI\nราคา300บาทต่อเดือน💖\n#เพิ่มคิกเกอร์ตัวละ100👌\n🎀สนใจรีบทัก..บอทpython3ฟังชั่นล้นหลาม🎁กำลังรอให้คุณเป็นเจ้าของ\n(ผมจะอยู่ที่ห้องนี้แค่15นาทีนะจ๊ะ)\nselfbot by:\n╔══════════════┓\n[BY.TANBOTMEVERDIE✯͜͡❂➣]➣ \n╚══════════════┛")
                     if spl[len(spl)-1] == "":
                         line.sendText(msg.to,"กดที่นี่เพื่อเขย่าข้อความด้านบน:\nline://nv/chatMsg?chatId="+msg.to+"&messageId="+msg.id) ### CMD COVER
                 elif ".รันแชท @" in msg.text:
@@ -1479,15 +1479,15 @@ def lineBot(op):
                     gs = line.getGroup(msg.to)
                     for g in gs.members:
                         if _nametarget == g.displayName:
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
-                           line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
+                           line.sendText(g.mid,"[Line://ti/g/aFc6TZPsqo]")
                            line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
                            line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
                            line.sendText(g.mid,"[Line://ti/g2/OXNFJ5K4P9]")
