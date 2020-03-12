@@ -341,8 +341,8 @@ def mentionMembers(to, mid):
         line.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 
 def myhelp():
-    myHelp = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
- SELF BOT MIN HACK
+    myHelp = """✦TANBOTNEVERDIE✯͜͡❂➣ 
+ ✦TANBOTNEVERDIE✯͜͡❂➣ 
 ✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 ╔═══════════════════┓
 ╔══════════╗
@@ -434,8 +434,8 @@ def myhelp():
     return myHelp
 
 def listgrup():
-    listGrup = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
- SELF BOT MIN HACK
+    listGrup = """✦TANBOTNEVERDIE✯͜͡❂➣ 
+ ✦TANBOTNEVERDIE✯͜͡❂➣ 
 ✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
  ────┅═ই۝ई═┅────
              คำสั่งในกลุ่ม
@@ -479,8 +479,8 @@ def listgrup():
     return listGrup
 
 def socmedia():
-    socMedia = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
- SELF BOT MIN HACK
+    socMedia = """✦TANBOTNEVERDIE✯͜͡❂➣ 
+ ✦TANBOTNEVERDIE✯͜͡❂➣ 
 ✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 
 ╔══════════════┓
@@ -502,8 +502,8 @@ def socmedia():
     return socMedia
 
 def helpset():
-    helpSet = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
- SELF BOT MIN HACK
+    helpSet = """✦TANBOTNEVERDIE✯͜͡❂➣ 
+ ✦TANBOTNEVERDIE✯͜͡❂➣ 
 ✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 ╔══════════════┓
 ╠❂➣ โย่ว
@@ -551,8 +551,8 @@ def helpset():
     return helpSet
 
 def helpsetting():
-    helpSetting = """✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣
- SELF BOT MIN HACK
+    helpSetting = """✦TANBOTNEVERDIE✯͜͡❂➣ 
+ ✦TANBOTNEVERDIE✯͜͡❂➣ 
 ✯͜͡❂➣ ชุดคำสั่ง ภาษาไทย ✯͜͡❂➣
 ╔══════════════┓
 ╠❂➣ เปิดกัน/ปิดกัน
@@ -860,14 +860,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╔══[BY.มินทีมทดลองบอท]"
+                        ret_ = "╔══[BY.✦TANBOTNEVERDIE✯͜͡❂➣ ]"
                         ret_ += "\n╠۝ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n╠۝ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n╠۝ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n╠۝ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ] ═ {}".format(contact.statusMessage)
                         ret_ += "\n╠۝ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[BY.มินทีมทดลองบอท]"
+                        ret_ += "\n╚══[BY.✦TANBOTNEVERDIE✯͜͡❂➣ ]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -1331,8 +1331,8 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == '.แอด':
                     group = line.getGroup(to)
-                    GS = group.creator.mid
-                    line.sendContact(to, GS)
+                    Ptatan1983 = group.creator.mid
+                    line.sendContact(to, ptatan1983)
                     line.sendMessage(to, "☝คนนี้แหล่ะคนสร้างกลุ่มนี้")
                 elif text.lower() == '.ไอดีกลุ่ม':
                     gid = line.getGroup(to)
@@ -1620,16 +1620,16 @@ def lineBot(op):
                     thisgroup = line.getGroups([msg.to])
                     Mids = [contact.mid for contact in thisgroup[0].members]
                     mi_d = Mids[:33]
-                    line.createGroup("MIN HACK SELFBOT", mi_d)
-                    line.sendText(msg.to,"MIN HACK BOT")
-                    line.createGroup("MIN HACK SELFBOT", mi_d)
-                    line.sendText(msg.to,"MIN HACK BOT")
+                    line.createGroup("✦TANBOTNEVERDIE✯͜͡❂➣ ", mi_d)
+                    line.sendText(msg.to,"✦TANBOTNEVERDIE✯͜͡❂➣ ")
+                    line.createGroup("✦TANBOTNEVERDIE✯͜͡❂➣ ", mi_d)
+                    line.sendText(msg.to,"✦TANBOTNEVERDIE✯͜͡❂➣ ")
                 elif ".รัน: " in msg.text.lower():
                         key = msg.text[-33:]
                         line.findAndAddContactsByMid(key)                   
                         contact = cl.getContact(key)
-                        line.createGroup("MIN HACK SELFBOT Group",[key])
-                        line.sendText(msg,to,"MIN HACK SELFBOT")
+                        line.createGroup("✦TANBOTNEVERDIE✯͜͡❂➣  Group",[key])
+                        line.sendText(msg,to,"✦TANBOTNEVERDIE✯͜͡❂➣ ")
                 elif ".ไม่รับเชิญ " in msg.text.lower():
                     spl = re.split(".ไม่รับเชิญ ",msg.text,flags=re.IGNORECASE)
                     if spl[0] == "":
