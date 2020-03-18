@@ -52,34 +52,6 @@ settings = {
     "welcome":"􀼂􀅝church􏿿􀼂􀅜arbor􏿿﹏􀼂􀅞limo 1􏿿􀼂􀅟limo 2􏿿􀼂􀅠limo 3􏿿﹏􀼂􀅜arbor􏿿􀼂􀅝church􏿿􏿿􀼂􀅝present􏿿",
     "kick":"✧✯͜͡❂➣TANBOTNEVERDIE✯͜͡❂➣✧",
     "bye":"􀼂􀅝church􏿿􀼂􀅜arbor􏿿﹏􀼂􀅞limo 1􏿿􀼂􀅟limo 2􏿿􀼂􀅠limo 3􏿿﹏􀼂􀅜arbor􏿿􀼂􀅝church􏿿",    
-    {
-    "autoAdd": false,
-    "autoJoin": true,
-    "autoJoinTicket": false,
-    "autoLeave": false,
-    "autoRead": false,
-    "blacklist": {
-        "uf6b0fecdf26459e6a48b5a387c1144d2": true
-    },
-    "canceljoin": false,
-    "cancelprotect": false,
-    "changeGroupPicture": {},
-    "changePicture": {},
-    "checkSticker": false,
-    "dblack": false,
-    "dblacklist": false,
-    "detectMention": false,
-    "inviteprotect": false,
-    "keyCommand": "",
-    "kickjoin": false,
-    "lang": "JP",
-    "mimic": {
-        "copy": false,
-        "status": false,
-        "target": {}
-    },
-    "protect": false,
-    "qrprotect": false,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -102,8 +74,11 @@ settings = {
         "Mozilla/5.0 (Windows NT 5.0; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (Windows NT 5.0; rv:5.0) Gecko/20100101 Firefox/5.0"
     ],
-    "wblack": false,
-    "wblacklist": false
+    "mimic": {
+        "copy": False,
+        "status": False,
+        "target": {}
+    }
 }
 Setmain = {
     "foto": {},
