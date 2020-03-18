@@ -16,7 +16,7 @@ line = LINE("")
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-print ("Login usamasmax!!")
+print ("Login usaptatan1983!!")
 
 lineMID = line.profile.mid
 lineProfile = line.getProfile()
