@@ -228,9 +228,9 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = "╔═════════════════ " + "\n" + \
-             "╠  🌺TANBOTMEVERDIE✯͜͡❂➣🌺 " + "\n" + \
-             "╠═════════════════ " + "\n" + \
+    myHelp = "╔═════════════════ \n" + \
+             "╠  🌺TANBOTMEVERDIE✯͜͡❂➣🌺 \n" + \
+             "╠═════════════════ \n" + \
              "╠❂͜͡☬➣About" + "\n" + \
              "╠❂͜͡☬➣คำสั่งโซเชียล" + "\n" + \
              "╠❂͜͡☬➣คำสั่งคิก" + "\n" + \
@@ -262,9 +262,9 @@ def myhelp():
              "╠❂͜͡☬➣Cbroadcastvoice" + "\n" + \
              "╠❂͜͡☬➣รีบอท" + "\n" + \
              "╠❂͜͡☬➣เชคออน์" + "\n" + \
-             "╠═════════════════ " + "\n" + \
-             "╠❂͜͡☬➣  🌺 TANBOTMEVERDIE✯͜͡❂➣ 🌺 " + "\n" + \
-             "╠═════════════════ " + "\n" + \ 
+             "╠═════════════════\n" + \
+             "╠❂͜͡☬➣  🌺 TANBOTMEVERDIE✯͜͡❂➣ 🌺\n" + \
+             "╠═════════════════ \n" + \ 
  return myHelp
 
 def listgrup():
