@@ -18,7 +18,8 @@ line = LINE()
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
-print ("Login Succes")
+print ("Login usaptatan1983!!")
+#print ("Login Succes")
 
 lineMID = line.profile.mid
 lineProfile = line.getProfile()
