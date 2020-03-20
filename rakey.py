@@ -714,14 +714,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╔══[ ✯༺ πနးຫຮี่のีধ์ ༻ ]"
+                        ret_ = "╔══[ ✯༺ TANBOTMEVERDIE✯͜͡❂➣ ༻ ]"
                         ret_ += "\n╠۝ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n╠۝ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n╠۝ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n╠۝ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ]"
                         ret_ += "\n╠۝ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[ ✯༺ πနးຫຮี่のีধ์ ༻✯ ]"
+                        ret_ += "\n╚══[ ✯༺ TANBOTMEVERDIE✯͜͡❂➣ ༻✯ ]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
