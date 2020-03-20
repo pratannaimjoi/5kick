@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from linepy import *
+from tanlinepy import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from datetime import datetime
