@@ -19,7 +19,6 @@ line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
 
 from important import *
-
 # Setup Argparse
 parser = argparse.ArgumentParser(description='© 2018 Edit By รัตน์')
 parser.add_argument('-t', '--token', type=str, metavar='', required=False, help='Token | Example : Exxxx')
