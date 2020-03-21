@@ -1,6 +1,24 @@
 # -*- coding: utf-8 -*-
-'''
-'''
+from tanlinepy import *
+from akad.ttypes import *
+from multiprocessing import Pool, Process
+from datetime import datetime
+from time import sleep
+from bs4 import BeautifulSoup
+from humanfriendly import format_timespan, format_size, format_number, format_length
+import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib.request, urllib.parse, urllib.error, urllib.parse,antolib,subprocess,unicodedata,GACSender
+from gtts import gTTS
+from googletrans import Translator
+#==============================================================================#
+botStart = time.time()
+#==============================================================================#
+line = LINE()
+#line = LINE("เมล","พาส")
+#line = LINE('')
+line.log("Auth Token : " + str(line.authToken))
+line.log("Timeline Token : " + str(line.tl.channelAccessToken))
+
+
 from important import *
 
 # Setup Argparse
@@ -36,12 +54,12 @@ print ('++ Auth Token : %s' % kicker5.authToken)
 print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
 g1 = LINE('')
 print ("===============[ GHOST LOGIN SUKSES]===============\n")
-
+print ("Login usaptatan1983!!")
 myMid = line.profile.mid
-creator = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-owner = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-admin = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-staff = ["u47d41cc45c4576282d0c52ce4d5b5856"]
+creator = ["uda8195e53e6c6e17f3f745743e477100"]
+owner = ["uda8195e53e6c6e17f3f745743e477100"]
+admin = ["uda8195e53e6c6e17f3f745743e477100"]
+staff = ["uda8195e53e6c6e17f3f745743e477100"]
 Amid = kicker.getProfile().mid
 Bmid = kicker2.getProfile().mid
 Cmid = kicker3.getProfile().mid
