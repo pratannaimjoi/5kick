@@ -12,7 +12,7 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 #==============================================================================#
-line = LINE('line.me/ti/p/~ptatan1983','pratannaimjoi@gmail.com')
+line = LINE()
 #line = LINE("เมล","พาส")
 #line = LINE('')
 line.log("Auth Token : " + str(line.authToken))
@@ -54,10 +54,10 @@ g1 = LINE('')
 #print ("===============[ GHOST LOGIN SUKSES]===============\n")
 print ("Login usaptatan1983!!")
 myMid = line.profile.mid
-creator = ["udb43d62b8ab3d9390881ded66f8a037a"]
-owner = ["udb43d62b8ab3d9390881ded66f8a037a"]
-admin = ["udb43d62b8ab3d9390881ded66f8a037a"]
-staff = ["udb43d62b8ab3d9390881ded66f8a037a"]
+creator = ["uda8195e53e6c6e17f3f745743e477100"]
+owner = ["uda8195e53e6c6e17f3f745743e477100"]
+admin = ["uda8195e53e6c6e17f3f745743e477100"]
+staff = ["uda8195e53e6c6e17f3f745743e477100"]
 Amid = kicker.getProfile().mid
 Bmid = kicker2.getProfile().mid
 Cmid = kicker3.getProfile().mid
