@@ -12,12 +12,11 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 #==============================================================================#
-line = LINE()
+line = LINE('line.me/ti/p/~ptatan1983','pratannaimjoi@gmail.com')
 #line = LINE("เมล","พาส")
 #line = LINE('')
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
-
 
 from important import *
 
