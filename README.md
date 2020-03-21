@@ -18,7 +18,7 @@
                pip3 install six
                pip3 install wikipedia
                pip3 install antolib
-               git clone https://github.com/pratannaimjoi/tanfly
+               git clone https://github.com/pratannaimjoi/5kick
                cd tanfly
                python3 fly.py
 
