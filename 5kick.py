@@ -51,13 +51,13 @@ kicker5 = LINE('')
 print ('++ Auth Token : %s' % kicker5.authToken)
 print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
 g1 = LINE('')
-print ("===============[ GHOST LOGIN SUKSES]===============\n")
-#print ("Login usaptatan1983!!")
+#print ("===============[ GHOST LOGIN SUKSES]===============\n")
+print ("Login usaptatan1983!!")
 myMid = line.profile.mid
-creator = ["uda8195e53e6c6e17f3f745743e477100"]
-owner = ["uda8195e53e6c6e17f3f745743e477100"]
-admin = ["uda8195e53e6c6e17f3f745743e477100"]
-staff = ["uda8195e53e6c6e17f3f745743e477100"]
+creator = ["udb43d62b8ab3d9390881ded66f8a037a"]
+owner = ["udb43d62b8ab3d9390881ded66f8a037a"]
+admin = ["udb43d62b8ab3d9390881ded66f8a037a"]
+staff = ["udb43d62b8ab3d9390881ded66f8a037a"]
 Amid = kicker.getProfile().mid
 Bmid = kicker2.getProfile().mid
 Cmid = kicker3.getProfile().mid
