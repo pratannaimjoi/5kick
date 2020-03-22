@@ -87,12 +87,60 @@ responsename3 = kc.getProfile().displayName
 responsename4 = kb.getProfile().displayName
 responsename5 = kd.getProfile().displayName
 
+msg_dict = {}
+
 settings = {
-    "Picture":False,
-    "group":{},
-    "groupPicture":False,
-    "changePicture":False,
-    "autoJoinTicket":False,
+    "autoBlock": False,
+    "autoAdd": True,
+    "autoJoin": True,
+    'autoCancel':{"on":True,"members":10},	
+    "autoLeave": True,
+    "autoRead": True,
+    "leaveRoom": False,
+    "detectMention": True,
+    "checkSticker": False,
+    "checkContact": False,
+    "checkPost": False,
+    "kickMention": False,
+    "potoMention": True,
+    "delayMention": False,
+    "lang":"JP",
+    "Wc": True,
+    "Lv": True,
+    "Nk": True,
+    "Api": True,
+    "Aip": True,
+    "blacklist":{},
+    "winvite": False,
+    "wblacklist": False,
+    "dblacklist": False,
+    "gift":False,
+    "likeOn":True,
+    "timeline":True,
+    "commentOn":True,
+    "commentBlack":{},
+    "wblack": False,
+    "dblack": False,
+    "clock": False,
+    "cName":"",
+    "cNames":"",
+    "changeGroupPicture": [],
+    "changePictureProfile":False,
+    "unsendMessage": False,
+    "autoJoinTicket": False,
+    "welcome":"[line.me/R/ti/p/%40642xtzwc]",
+    "kick":"เอาหวะใจแม่งได้หวะ",
+    "bye":"นายทำดีแล้วเพื่อน ลาก่อน",
+    "Respontag":"💗",
+    "eror":"",
+    "spam":{},
+    "invite": {},
+    "winvite": False,
+    "pnharfbot": {},
+    "pname": {},
+    "pro_name": {},
+    "message1":"",
+    "messageadd":"",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -114,9 +162,86 @@ settings = {
         "Mozilla/5.0 (Windows NT 5.1; rv:2.0.1) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (Windows NT 5.0; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (Windows NT 5.0; rv:5.0) Gecko/20100101 Firefox/5.0"
-    ]
+      ],
+    "mimic": {
+        "copy": False,
+        "status": False,
+        "target": {}
+    }
 }
 
+RfuProtect = {
+    "protect": False,
+    "cancelprotect": False,
+    "inviteprotect": False,
+    "linkprotect": False,
+    "Protectguest": False,
+    "Protectjoin": False,
+    "autoBlock": True,
+}
+
+Setmain = {
+    "foto": {},
+}
+
+read = {
+    "readPoint": {},
+    "readMember": {},
+    "readTime": {},
+    "setTime":{},
+    "ROM": {}
+}
+
+myProfile = {
+	"displayName": "",
+	"statusMessage": "",
+	"pictureStatus": ""
+}
+
+mimic = {
+    "copy":False,
+    "copy2":False,
+    "status":False,
+    "target":{}
+    }
+    
+RfuCctv={
+    "cyduk":{},
+    "point":{},
+    "sidermem":{}
+}
+
+rfuSet = {
+    'setTime':{},
+    'ricoinvite':{},
+    'winvite':{},
+    }
+
+user1 = lineMID
+user2 = ""
+	
+setTime = {}
+setTime = rfuSet['setTime']
+
+contact = line.getProfile() 
+backup = line.getProfile() 
+backup.dispalyName = contact.displayName 
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+mulai = time.time() 
+
+try:
+    with open("Log_data.json","r",encoding="utf_8_sig") as f:
+        msg_dict = json.loads(f.read())
+except:
+    print("Couldn't read Log data")
+
+myProfile["displayName"] = lineProfile.displayName
+myProfile["statusMessage"] = lineProfile.statusMessage
+myProfile["pictureStatus"] = lineProfile.pictureStatus
+#==============================================================================#
+#==============================================================================#
 wait = {
     "limit": 1,
     "owner":{},
