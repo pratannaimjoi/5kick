@@ -341,7 +341,7 @@ def mentionMembers(to, mid):
         line.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 
 def myhelp():
-    myHelp = """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    myHelp = """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠❂͜͡☬➣🌺TANBOTNEVERDIE🌺✯͜͡❂➣
 ╠═════════════════ 
@@ -383,7 +383,7 @@ def myhelp():
     return myHelp
 
 def listgrup():
-    listGrup = """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    listGrup = """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠❂͜͡☬➣ 🌺TANBOTNEVERDIE🌺✯͜͡❂➣
 ╠═════════════════
@@ -432,9 +432,7 @@ def listgrup():
     return listGrup
 
 def socmedia():
-    socMedia = """╔═════════════════
-                  ╠❂͜͡☬➣🌺TANBOTNEVERDIE🌺✯͜͡❂➣
-                  ╚═════════════════
+    socMedia = """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════ 
 ╠❂͜͡☬➣ 🌺TANBOTNEVERDIE🌺✯͜͡❂➣
 ╠═════════════════  
@@ -461,7 +459,7 @@ def socmedia():
     return socMedia
 
 def helpset():
-    helpSet = """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    helpSet = """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠❂͜͡☬➣ 🌸TANBOTNEVERDIE🌸✯͜͡❂➣
 ╠═════════════════  
@@ -515,7 +513,7 @@ def helpset():
     return helpSet
 
 def helpsetting():
-    helpSetting = """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    helpSetting = """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠❂͜͡☬➣ 🌷TANBOTNEVERDIE🌷✯͜͡❂➣ 
 ╠═════════════════  
@@ -557,7 +555,7 @@ def helpsetting():
     return helpSetting
 
 def helptexttospeech():
-    helpTextToSpeech =   """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    helpTextToSpeech =   """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠🌿 ™❍✯͜͡RED™SAMURI✯͜͡❂➣🌿
 ╠═════════════════
@@ -591,7 +589,7 @@ def helptexttospeech():
     return helpTextToSpeech
     
 def helplanguange():
-    helpLanguange =    """🌺TANBOTNEVERDIE🌺✯͜͡❂➣
+    helpLanguange =    """꧁💓 @:꓄ꍏꈤᖘꍏ꓄꓄ꍏꌩ💓꧂
 ╔═════════════════
 ╠❂͜͡☬➣ 🌹TANBOTNEVERDIE🌹✯͜͡❂➣ 
 ╠═════════════════ 
