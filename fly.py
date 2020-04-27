@@ -332,7 +332,7 @@ def lineBot(op):
                     line.sendMessage(to, str(myHelp))
 
 
-                elif msg.text in ["ลาก่อน"]:
+                elif msg.text in ["คันแตด"]:
                         if msg.toType == 2:
                          _name = msg.text.replace("ลาก่อน","")
                          gs = line.getGroup(receiver)
